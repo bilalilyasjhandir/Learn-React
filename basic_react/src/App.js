@@ -1,6 +1,11 @@
+import HelloWorld from "./HelloWorld"
+
 function App() {
   return (
-    <h1>Hello World! I learned how to install react using basic react method and vite react method</h1>
+    <>
+      <HelloWorld/>
+      <h1>I learned how to install react using basic react method and vite react method</h1>
+    </>
   );
 }
 
